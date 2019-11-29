@@ -9,8 +9,26 @@
 
         gtag('config', 'UA-101753399-1');
         </script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     </head>
     <body>
         This is a GDPR Test Page!
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+        <script>
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#aa0000",
+              "text": "#ffdddd"
+            },
+            "button": {
+              "background": "#ff0000"
+            }
+          },
+          "content": {
+            "href": "https://yosukeenomoto.github.io/GDPR-TEST/policy/index.html"
+          }
+        });
+        </script>
     </body>
 </html>
